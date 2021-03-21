@@ -1,0 +1,27 @@
+{
+  "name": "finexio-app",
+  "version": "1.0.0",
+  "description": "A app to sereve finexio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon start"
+  },
+  "keywords": [
+    "",
+    ""
+  ],
+  "author": "Amjad Majed",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cron": "^1.8.2",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "pug": "^3.0.2",
+    "util992": "^1.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
